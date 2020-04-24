@@ -1,0 +1,18 @@
+type Query {
+    beers(style:String,id:Int,unit:String):[Beer]
+}
+
+type Beer {
+    abv: String,
+    ibu: String,
+    id: Int,
+    name: String,
+    style: String,
+    ounces: Float,
+    image: String,
+    icon: String,
+    price: Float,
+    description: String,
+    quantity: String,
+    unit: String
+}
